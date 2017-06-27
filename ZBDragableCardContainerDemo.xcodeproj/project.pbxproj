@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632A154F1F02465100ACEDDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A154E1F02465100ACEDDB /* main.m */; };
+		632A15521F02465100ACEDDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A15511F02465100ACEDDB /* AppDelegate.m */; };
+		632A15551F02465100ACEDDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A15541F02465100ACEDDB /* ViewController.m */; };
+		632A15581F02465100ACEDDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632A15561F02465100ACEDDB /* Main.storyboard */; };
+		632A155A1F02465100ACEDDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632A15591F02465100ACEDDB /* Assets.xcassets */; };
+		632A155D1F02465100ACEDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632A155B1F02465100ACEDDB /* LaunchScreen.storyboard */; };
+		632A15681F02465100ACEDDB /* ZBDragableCardContainerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A15671F02465100ACEDDB /* ZBDragableCardContainerDemoTests.m */; };
+		632A15731F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 632A15721F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		632A15641F02465100ACEDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632A15421F02465100ACEDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632A15491F02465100ACEDDB;
+			remoteInfo = ZBDragableCardContainerDemo;
+		};
+		632A156F1F02465200ACEDDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 632A15421F02465100ACEDDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 632A15491F02465100ACEDDB;
+			remoteInfo = ZBDragableCardContainerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		632A154A1F02465100ACEDDB /* ZBDragableCardContainerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBDragableCardContainerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		632A154E1F02465100ACEDDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		632A15501F02465100ACEDDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		632A15511F02465100ACEDDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		632A15531F02465100ACEDDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		632A15541F02465100ACEDDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		632A15571F02465100ACEDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		632A15591F02465100ACEDDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632A155C1F02465100ACEDDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		632A155E1F02465100ACEDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632A15631F02465100ACEDDB /* ZBDragableCardContainerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBDragableCardContainerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632A15671F02465100ACEDDB /* ZBDragableCardContainerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBDragableCardContainerDemoTests.m; sourceTree = "<group>"; };
+		632A15691F02465200ACEDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632A156E1F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBDragableCardContainerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		632A15721F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBDragableCardContainerDemoUITests.m; sourceTree = "<group>"; };
+		632A15741F02465200ACEDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632A15471F02465100ACEDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632A15601F02465100ACEDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632A156B1F02465200ACEDDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		632A15411F02465100ACEDDB = {
+			isa = PBXGroup;
+			children = (
+				632A154C1F02465100ACEDDB /* ZBDragableCardContainerDemo */,
+				632A15661F02465100ACEDDB /* ZBDragableCardContainerDemoTests */,
+				632A15711F02465200ACEDDB /* ZBDragableCardContainerDemoUITests */,
+				632A154B1F02465100ACEDDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		632A154B1F02465100ACEDDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632A154A1F02465100ACEDDB /* ZBDragableCardContainerDemo.app */,
+				632A15631F02465100ACEDDB /* ZBDragableCardContainerDemoTests.xctest */,
+				632A156E1F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632A154C1F02465100ACEDDB /* ZBDragableCardContainerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				632A15501F02465100ACEDDB /* AppDelegate.h */,
+				632A15511F02465100ACEDDB /* AppDelegate.m */,
+				632A15531F02465100ACEDDB /* ViewController.h */,
+				632A15541F02465100ACEDDB /* ViewController.m */,
+				632A15561F02465100ACEDDB /* Main.storyboard */,
+				632A15591F02465100ACEDDB /* Assets.xcassets */,
+				632A155B1F02465100ACEDDB /* LaunchScreen.storyboard */,
+				632A155E1F02465100ACEDDB /* Info.plist */,
+				632A154D1F02465100ACEDDB /* Supporting Files */,
+			);
+			path = ZBDragableCardContainerDemo;
+			sourceTree = "<group>";
+		};
+		632A154D1F02465100ACEDDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				632A154E1F02465100ACEDDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		632A15661F02465100ACEDDB /* ZBDragableCardContainerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				632A15671F02465100ACEDDB /* ZBDragableCardContainerDemoTests.m */,
+				632A15691F02465200ACEDDB /* Info.plist */,
+			);
+			path = ZBDragableCardContainerDemoTests;
+			sourceTree = "<group>";
+		};
+		632A15711F02465200ACEDDB /* ZBDragableCardContainerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				632A15721F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.m */,
+				632A15741F02465200ACEDDB /* Info.plist */,
+			);
+			path = ZBDragableCardContainerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632A15491F02465100ACEDDB /* ZBDragableCardContainerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632A15771F02465200ACEDDB /* Build configuration list for PBXNativeTarget "ZBDragableCardContainerDemo" */;
+			buildPhases = (
+				632A15461F02465100ACEDDB /* Sources */,
+				632A15471F02465100ACEDDB /* Frameworks */,
+				632A15481F02465100ACEDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBDragableCardContainerDemo;
+			productName = ZBDragableCardContainerDemo;
+			productReference = 632A154A1F02465100ACEDDB /* ZBDragableCardContainerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		632A15621F02465100ACEDDB /* ZBDragableCardContainerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632A157A1F02465200ACEDDB /* Build configuration list for PBXNativeTarget "ZBDragableCardContainerDemoTests" */;
+			buildPhases = (
+				632A155F1F02465100ACEDDB /* Sources */,
+				632A15601F02465100ACEDDB /* Frameworks */,
+				632A15611F02465100ACEDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632A15651F02465100ACEDDB /* PBXTargetDependency */,
+			);
+			name = ZBDragableCardContainerDemoTests;
+			productName = ZBDragableCardContainerDemoTests;
+			productReference = 632A15631F02465100ACEDDB /* ZBDragableCardContainerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		632A156D1F02465200ACEDDB /* ZBDragableCardContainerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632A157D1F02465200ACEDDB /* Build configuration list for PBXNativeTarget "ZBDragableCardContainerDemoUITests" */;
+			buildPhases = (
+				632A156A1F02465200ACEDDB /* Sources */,
+				632A156B1F02465200ACEDDB /* Frameworks */,
+				632A156C1F02465200ACEDDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				632A15701F02465200ACEDDB /* PBXTargetDependency */,
+			);
+			name = ZBDragableCardContainerDemoUITests;
+			productName = ZBDragableCardContainerDemoUITests;
+			productReference = 632A156E1F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632A15421F02465100ACEDDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jakf_17;
+				TargetAttributes = {
+					632A15491F02465100ACEDDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					632A15621F02465100ACEDDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 632A15491F02465100ACEDDB;
+					};
+					632A156D1F02465200ACEDDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 632A15491F02465100ACEDDB;
+					};
+				};
+			};
+			buildConfigurationList = 632A15451F02465100ACEDDB /* Build configuration list for PBXProject "ZBDragableCardContainerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632A15411F02465100ACEDDB;
+			productRefGroup = 632A154B1F02465100ACEDDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632A15491F02465100ACEDDB /* ZBDragableCardContainerDemo */,
+				632A15621F02465100ACEDDB /* ZBDragableCardContainerDemoTests */,
+				632A156D1F02465200ACEDDB /* ZBDragableCardContainerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632A15481F02465100ACEDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A155D1F02465100ACEDDB /* LaunchScreen.storyboard in Resources */,
+				632A155A1F02465100ACEDDB /* Assets.xcassets in Resources */,
+				632A15581F02465100ACEDDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632A15611F02465100ACEDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632A156C1F02465200ACEDDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632A15461F02465100ACEDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A15551F02465100ACEDDB /* ViewController.m in Sources */,
+				632A15521F02465100ACEDDB /* AppDelegate.m in Sources */,
+				632A154F1F02465100ACEDDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632A155F1F02465100ACEDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A15681F02465100ACEDDB /* ZBDragableCardContainerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		632A156A1F02465200ACEDDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A15731F02465200ACEDDB /* ZBDragableCardContainerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		632A15651F02465100ACEDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632A15491F02465100ACEDDB /* ZBDragableCardContainerDemo */;
+			targetProxy = 632A15641F02465100ACEDDB /* PBXContainerItemProxy */;
+		};
+		632A15701F02465200ACEDDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 632A15491F02465100ACEDDB /* ZBDragableCardContainerDemo */;
+			targetProxy = 632A156F1F02465200ACEDDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		632A15561F02465100ACEDDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632A15571F02465100ACEDDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		632A155B1F02465100ACEDDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632A155C1F02465100ACEDDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		632A15751F02465200ACEDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		632A15761F02465200ACEDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		632A15781F02465200ACEDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBDragableCardContainerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yr.ZBDragableCardContainerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		632A15791F02465200ACEDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBDragableCardContainerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yr.ZBDragableCardContainerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		632A157B1F02465200ACEDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBDragableCardContainerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yr.ZBDragableCardContainerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBDragableCardContainerDemo.app/ZBDragableCardContainerDemo";
+			};
+			name = Debug;
+		};
+		632A157C1F02465200ACEDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBDragableCardContainerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yr.ZBDragableCardContainerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBDragableCardContainerDemo.app/ZBDragableCardContainerDemo";
+			};
+			name = Release;
+		};
+		632A157E1F02465200ACEDDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBDragableCardContainerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yr.ZBDragableCardContainerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBDragableCardContainerDemo;
+			};
+			name = Debug;
+		};
+		632A157F1F02465200ACEDDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBDragableCardContainerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yr.ZBDragableCardContainerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBDragableCardContainerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632A15451F02465100ACEDDB /* Build configuration list for PBXProject "ZBDragableCardContainerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632A15751F02465200ACEDDB /* Debug */,
+				632A15761F02465200ACEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632A15771F02465200ACEDDB /* Build configuration list for PBXNativeTarget "ZBDragableCardContainerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632A15781F02465200ACEDDB /* Debug */,
+				632A15791F02465200ACEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		632A157A1F02465200ACEDDB /* Build configuration list for PBXNativeTarget "ZBDragableCardContainerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632A157B1F02465200ACEDDB /* Debug */,
+				632A157C1F02465200ACEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		632A157D1F02465200ACEDDB /* Build configuration list for PBXNativeTarget "ZBDragableCardContainerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632A157E1F02465200ACEDDB /* Debug */,
+				632A157F1F02465200ACEDDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632A15421F02465100ACEDDB /* Project object */;
+}
